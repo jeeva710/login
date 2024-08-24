@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to right, rgb(155, 155, 246) ,white);
+}
+.container{
+    box-shadow: 10px 5px 40px 10px black;
+    position: absolute;
+    border-radius: 60px;
+    transform: translate(-50%,-50%);
+    top : 50%;
+    left: 50%;
+    
+}
+
+.card{
+    color: white;
+    padding: 60px 40px 50px 40px;
+    background-color: transparent;
+    border-radius: 10px;
+    color:white;
+}
+#top{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    color:rgb(61, 61, 62);
+    font-family:cursive;
+
+}
+#fname{
+    border:none;
+    background: transparent;
+    color:white;
+    border-bottom: 2px solid white;
+    padding: 6px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+#lname{
+    border:none;
+    background: transparent;
+    color:white;
+    margin-left:40px;
+    border-bottom: 2px solid white;
+    padding: 6px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+#email{
+    border:none;
+    background: transparent;
+    color:white;
+    border-bottom: 2px solid white;
+    padding: 6px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+#number{
+    border:none;
+    background: transparent;
+    color:white;
+    border-bottom: 2px solid white;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-left:40px;
+    outline: none;
+    font-size: 14px;
+}
+
+#address{
+    border:none;
+    background: transparent;
+    color:white;
+    border-bottom: 2px solid white;
+    padding: 6px;
+    margin-bottom: 10px;
+    outline: none;
+    font-size: 14px;
+}
+
+#city{
+    border:none;
+    background: transparent;
+    color:white;
+    border-bottom: 2px solid white;
+    padding: 6px;
+    margin-bottom: 10px;
+    margin-left:40px;
+    outline: none;
+    font-size: 14px;
+}
+
+#button{
+    padding:10px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 165px;
+    margin-top: 10px;
+    outline: none;
+    border: none;
+    color:black;
+    font-size: 16px;
+}
+
+#button:hover{
+    background-color:rgb(133, 133, 243);
+}
